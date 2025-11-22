@@ -1,16 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-</title> ☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️ </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    ☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️😉☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️☺️
+  </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hover-zoom {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .hover-zoom:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    }
+    .glow-text {
+      text-shadow: 0 0 12px rgba(0, 150, 255, 0.6);
+    }
+    .fade-in {
+      animation: fadeIn 1.2s ease forwards;
+      opacity: 0;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+  </style>
 </head>
-  <body>
-    <h1> youre so lazy u didnt look at all the smiles finish to see that there is a winking face </h1>
-    <p> you just realised that you were tricked</p>
-  </body>
-  <hr class="border-grey-200" />
 
-  <section id="core-competency">
-    <h2>Our expertise at a glance </h2>
-    <<div class=grid grid-cols-1 md:grid-cols-2 lg lg:grid=-cols2 gap-8>
+<body class="bg-gray-950 text-white">
 
-      <div class="card p-5 border-accent hover-zoom </html>
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center p-6 fade-in">
+    <h1 class="text-4xl md:text-6xl font-bold glow-text">
+      You're so lazy you didn’t scroll to see the hidden wink 😉
+    </h1>
+
+    <p class="mt-4 text-lg text-gray-300">
+      And now… you realise you were tricked 😈
+    </p>
+
+    <button class="mt-6 px-6 py-3 bg-blue-600 rounded-xl hover:bg-blue-500 transition">
+      Learn More
+    </button>
+  </section>
+
+  <hr class="border-gray-700" />
+
+  <!-- Expertise Section -->
+  <section id="core-competency" class="p-10 fade-in">
+    <h2 class="text-3xl font-semibold glow-text mb-8 text-center">
+      Our Expertise at a Glance
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+      <!-- Card 1 -->
+      <div class="card p-6 border border-blue-400 rounded-2xl hover-zoom bg-gray-900">
+        <h3 class="text-xl font-bold text-blue-300">Cyber Defense</h3>
+        <p class="mt-2 text-gray-300">
+          Cutting-edge security solutions engineered to stop even the smartest attacks.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card p-6 border border-green-400 rounded-2xl hover-zoom bg-gray-900">
+        <h3 class="text-xl font-bold text-green-300">AI Automation</h3>
+        <p class="mt-2 text-gray-300">
+          Automate everything. Faster, smarter, and more efficiently than ever before.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card p-6 border border-purple-400 rounded-2xl hover-zoom bg-gray-900">
+        <h3 class="text-xl font-bold text-purple-300">Digital Strategy</h3>
+        <p class="mt-2 text-gray-300">
+          Transform your systems into unstoppable digital machines. Bold and future-ready.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-10 text-gray-400 fade-in">
+    © 2025 Your Website — Powered by Chaos 😈
+  </footer>
+
+</body>
+</html>
